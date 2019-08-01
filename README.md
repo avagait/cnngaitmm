@@ -2,8 +2,13 @@
 
 Francisco M. Castro and Manuel J. Marin-Jimenez
 
-This library contains support Matlab code for [1] and [2].
-If you find useful this code, please, cite [1] or [2].
+This code run the test on the normal scenario for TUM-GAID and CASIA-B. For the other scenarios, you only have to download the datasets and build the corresponding imdbs.
+
+The models included with the code are:
+- CNN based on 3D convolutions using optical flow as input for TUM-GAID
+- CNN based on 3D convolutions that performs the fusion of optical flow, gray and depth modalities for TUM-GAID.
+- CNN based ResNet using gray as input for CASIA-B.
+- CNN based on 3D convolutions that performs the fusion of optical flow and gray for CASIA-B.
 
 ### Prerequisites
 1. MatConvNet library: http://www.vlfeat.org/matconvnet/
